@@ -1,0 +1,84 @@
+IC 1: MC68B09P		8-bit Microprocessing Unit
+IC 2: MV74SC138		Octal Decoders / Demultiplexers
+IC 3: EPROM (2764)
+IC 4: HM6116		2048-word X 8bit High Speed CMOS Static RAM (2k)
+IC 5: MV74SC245		Octal Bus Receiver, 3-State
+IC 6: HD68B40P		PTM(Programmble Timer Module)
+IC 7: MV74SC138		
+IC 8: 74LS02N		Quad 2-input NOR Gate 
+IC 9: MV74SC541		Octal buffer/line driver, 3-state
+IC 10: MC68B09P		
+IC 11: MV74SC138	
+IC 12: EPROM (2764)
+IC 13: EPROM (2764)
+IC 14: HM6264LP		8192-word x 8-bit High Speed CMOS Static RAM (8k)
+IC 15: HM6264LP
+IC 16: MV74SC138
+IC 17: HEF4528BP	Dual Monostable Multivibrator
+IC 18: CD4093BCN	NAND Gate IC 4 Channel Schmitt Trigger 
+IC 19: HD63B50P		ACIA(Asynchronous Communications Interface Adapter)
+IC 20: HD63B50P
+IC 21: HEF4024BP	7-stage binary counter
+IC 22: MM74C906N	Hex Open Drain N-Channel Buffers
+IC 23: 6N138		OPTOISO 5KV DARL W/BASE 8DIP
+IC 24: 6N138
+IC 25: SN74LS670N	4 x 4 REGISTER FILE WITH 3-STATE OUTPUTS
+IC 26: SN74LS670N
+IC 27: SN74LS670N
+IC 28: SN74LS670N
+IC 29: MV74SC541	
+IC 30: MV74SC541
+IC 31: MV74SC541 
+IC 32: MV74SC245
+IC 33: MM74C906N	
+IC 34: DG508 309-571
+IC 35: DG508ACJ		Multiplexer Switch ICs 8:1 CMOS Mid Voltage MUX 
+IC 36: NE5537N		Sample-and-hold amplifier
+IC 37: HEF4016BP	Quadruple bilateral switches
+IC 38: MN574AJ		uP-Compatible 25usec 12bit A/D converter
+IC 39: MV74HCT574	Octal Edge-Triggered D-Type Flip-Flips With 3-State Outputs
+IC 40: TL064CN		Low-Power JFET-Input Operational Amplifiers
+IC 41: TL064CN
+IC 42: TL064CN
+IC 43: MC14584BCP	Hex Schmitt Trigger
+IC 44: MV74SC541
+IC 45: TL074CN		Low-Noise FET-Input Operational Amplifiers	
+IC 46: LM311N		N Voltage Comparator
+IC 47: TL083CN		Dual, 16-V, 10-MHz, In to V- op amp with shutdown functionality
+IC 48: DG508 309-571
+IC 49: DG508ACJ
+IC 50: DG508 309-571
+IC 51: DG508 309-571
+IC 52: MV74HCT574
+IC 53: MOSFET
+IC 54: PC74HCT238P	3 to 8 Line Decoder/Demultiplexer
+IC 55: MOSFET
+
+1.  2x  68B09: 		8 bit microprosessor (MC68B09P)
+2.  4x  74SC138: 	3-to-8 line decoder/demultiplexer, inverting outputs (MV74SC138)	
+3.   -  6116:		2048-word X 8bit High Speed CMOS Static RAM (2k) (HM6116) 	 
+4.  2x  74SC245:	Octal Bus Transceivers With 3-State Outputs (MV74SC245) (HCT)	
+5.   -  68B40:		Programmable Timer Module 2.0 MHz NMOS (HD68B40P)	
+6.   -  74LS02N:	Quadruple Two Input NOR Gate  
+7.  5x  74SC541:	Octal buffer/line driver, 3-state
+8.  2x  6264:    	8192-word x 8-bit High Speed CMOS Static RAM (8k) (HM6264LP)	
+9.   -  HEF4528:	Dual monostable multivibrator (HEF4528BP)
+10.  -  4093*:   	Quad 2-Input NAND Schmitt Triggers Hight Voltage (3-15V)(CD4093BCN)	
+11. 2x  HD63B50:	Asynchronous Communications Interface Adapter 2.0 MHz CMOS (HD63B50P)
+12.  -  HEF4024*:	7-stage binary counter (HEF4024BP)
+13. 2x  74C906:  	Hex Open Drain N-Channel Buffers (MM74C906N)	
+14. 2x  6N138:  	Low Input Current, High Gain Optocouplers
+15. 4x  74LS670:	4-BY-4 REGISTER FILES WITH 3-STATE OUTPUTS (SN74LS670N)
+16. 4x  DG508: 		Monolithic CMOS Analog Multiplexers  309-571 (ACJ)
+17. 2x  DG508:		Monolithic CMOS Analog Multiplexers (DG508ACJ)
+18.  -  NE5537:		Sample-and-hold amplifier (NE5537N)
+19.  -  4016*:   	CMOS Chip With Four Analog Switches (HEF4016BP)	
+20.  -  MN574A:		uP-Compatible 25usec 12-Bit A/D Converter (MN574AJ)
+21. 2x  74SC574: 	Octal D-type edge-triggered flip-flop (MV74HCT574)	
+22. 3x  TL064:		Low-Power JFET-Input Operational Amplifiers (TL064CN)
+23.  -  MC14584B:	Hex Schmitt Trigger (MC14584BCP)
+24.  -  TL074:		Low-Noise FET-Input Operational Amplifiers (TL074CN)
+25.  -  LM311: 		Single high-speed voltage comparators (LM311N)		
+26.  -  TL083:		JFET-Input Operational Amplifier (TL083CN) (Now TL082?)
+27.  -  74HCT238:	3 to 8 Line Decoder/Demultiplexer (PC74HCT238P)
+28. 3x  EPROM (2764)	

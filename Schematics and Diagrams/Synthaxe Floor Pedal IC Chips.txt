@@ -1,0 +1,28 @@
+1: PX0-1000
+2: INTERSIL - IM6402
+3: HEF4042
+4: HEF4042
+5: HEF4013
+6: 4093
+7: 74C906
+8: 74C906
+9: 6N138
+10: 6N138
+11: 6N138
+12: VQ1000
+13: VQ1000
+14: L4075 ??
+
+1. 2x - VQ1000:   Channel Enhancement-Mode Vertical DMOS Power FETs Quad Array (1: Drain, 2: Source, 3: Gate)
+2. 1x - PX0-1000: Programmable Crystal Oscillators (~1MHz, 8: GND, 16: +10V, 9: OUT, 10: TEST)
+3. 1x - IM 6402:  Universal asynchronous receiver transmitter (1: 5V, 3: GND)
+4. 2x - HEF4042*: Quadruple D-latch
+5. 1x - HEF4013*: Dual D-type flip-flop (7: GND, 14: 2-15V)
+6. 1x - 4093*: 	  Quad 2-Input NAND Schmitt Triggers Hight Voltage (20V) (7: GND, 14: 20V)
+7. 2x - 74C906:   Hex Open Drain N-Channel Buffers (7: GND, 14: 3-15V)
+8. 3x - 6N138:    Low Input Current, High Gain Optocouplers (5: GND, 2: Anode, 3: Cathode, 8: VCC +15VMax, 7: Base Voltage, 6: Output Voltage)
+9. 1x - L4805:	  VERY LOW DROP VOLTAGE REGULATORS
+
+RA1 - 4: 316B221
+
+*-CMOS

@@ -1,0 +1,52 @@
+Schem:		On PCB:
+1: 6402		IC 1
+2: L4805	IC 10	
+3: 6N138	IC 3
+4: PX01000 	IC 2
+5: VQ1000J	IC 4
+6: 74C906	-NONE-
+7: 74C32	IC 7
+8: 4042		IC 8
+9: 4093		IC 5 / 6
+10: 4013	IC 9
+11: 4013	-NONE-
+
+ON PCB:
+	IC 1: 6042		Micro Processor
+	IC 2: PX01000 500KHz	Clock
+	IC 3: 6N138		Opto Isolator (For MIDI)
+	IC 4: VQ1000J		For LEDS
+IC 5: 4093
+IC 6: 4093
+IC 7: 74C32
+IC 8: 4042
+IC 9: 4013
+	IC 10: L4805		8V to 5V Volt Regulator
+IC 11: NONE
+
+Wires coming in:
+1: To output of 74C906 5
+2: To R5, C5 100n and 5V
+3: To 6N138 3 } Midi In and Out?  6N138 to 20 RRI 64
+4: To 6N138 2 }
+5: 8V to 2A fuse.  Powers LCDs, into IC2 1 } Output 5V
+6: To L4805 3 GND
+
+1x - 6402
+1x - L4805: 	VERY LOWDROP VOLTAGE REGULATORS
+1x - 6N183: 	Low Input Current, High Gain Optocoupler
+1x - PX01000: 	500KHz Osc
+1x - VQ1000J: 	N-Channel MOSFET
+1x - 74C906: 	Hex Open Drain N-Channel Buffers
+1x - 74C32: 	Quad 2-Input OR Gate
+1x - 4042*:	Quad Flip-Flop 
+1x - 4093*:	Four Schmitt Trigger NAND Gates
+2x - 4013*:	Two D Flip-Flops
+
+*-CMOS
+
+IC 10: from PL3, outputs GND and 5V+
+
+o: 5V                     L4805 pin 2
+o: GND(from PL3 Blk wire) L4805 pin 1
+o: 8V (from PL3 Red wire) L4805 pin 3

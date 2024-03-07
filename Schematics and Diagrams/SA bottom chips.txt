@@ -1,0 +1,46 @@
+I801 - DG508
+I802 - "
+I803 - DG508ACJ
+I804 - TL074CN
+I805 - TL083
+I806 - TL071CP
+I807 - "
+I808 - TL064CN
+I809 - "
+I810 - "
+I811 - MC14585BCP
+I812 - DG506ACJ
+I813 - LF398N
+I814 - MN574AJ
+I815 - HD63701X
+I816 - HD63701X
+I817 - AD7226KN
+I818 - "
+I819 - "
+I820 - AD558JN
+I821 - PC74HC14P
+I822 - 7815
+I823 - 7915
+I824 - 4805
+I825 - "
+I826 - LM310N
+I827 - "
+
+1.  2x  DG508: 		Monolithic CMOS Analog Multiplexers single 8-channel mux
+2.  1x  DG508ACJ:	Monolithic CMOS Analog Multiplexers (DG508ACJ) single 8-channel mux
+3.  1x  TL074CN:	Quad, 30-V, 3-MHz, high slew rate (13-V/µs), In to V+, JFET-input op amp
+4.  1x  TL083:		Dual, 16-V, 10-MHz, In to V- op amp with shutdown functionality
+5.  2x  TL071CP:	Single, 30-V, 3-MHz, high slew rate (13-V/µs), In to V+, JFET-input op amp	
+6.  3x  TL064CN:	Quad, 30-V, 1-MHz, In to V+, JFET-input operational amplifier	
+7.  1x  MC14585BCP:	4-Bit Magnitude Comparator
+8.  1x  DG506ACJ:	Monolithic CMOS Analog Multiplexers single 16-channel multiplexer 
+9.  1x  LF398N:		Monolithic Sample-and-Hold Circuits
+10. 1x  MN574A:		uP-Compatible 25usec 12-Bit A/D Converter (MN574AJ)
+11. 2x  HD63701X:	8-bit CMOS single chip micro computer unit (MCU) & 4k EPROM
+12. 3x  AD7226KN:	Quad 8-Bit D/A Converter
+14. 1x  AD558JN:	uP-Compatible 8-Bit DAC	
+15. 1x  PC74HC14P:	Hex Schmitt-Trigger Inverter
+16. 1x  7815:		Three Terminal Voltage Regulator (17~35V In, 15V Out)
+17. 1x  7915:		Three Terminal Negative Voltage Regulator (17~35V In, -15V Out)	
+18. 2x  L4805:		Three Terminal Voltage Regulator (17~35V In, 5V Out)
+19. 2x  LM310N:		Non-Inverting Op-Amp

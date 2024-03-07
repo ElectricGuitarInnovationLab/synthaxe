@@ -1,0 +1,118 @@
+RAM:
+2x - 6264 (Console 2x; Axe top  -; )
+1x - 6116 (Console  -; Axe top 1x; )
+
+TTL:
+1x - 74HC00   (Console 1x; Axe top  -; Pedal Unit -x; Step On -x; Neck -x) 14 DIP Quad 2-Input NAND Gate
+2x - 74LS02   (Console 1x; Axe top 1x; Pedal Unit -x; Step On -x; Neck -x) 14 DIP Quad 2-Input NOR Gate
+2x - 74HC32   (Console 1x; Axe top  -; Pedal Unit -x; Step On 1x; Neck -x) 14 DIP Quad 2-Input OR Gates
+2x - 74LS38   (Console 2x; Axe top  -; Pedal Unit -x; Step On -x; Neck -x) 14 DIP Quad 2-Input NAND Buffer with Open-Collector Outputs 
+6x - 74SC138  (Console 2x; Axe top 4x; Pedal Unit -x; Step On -x; Neck -x) 16 DIP 3-Line to 8-Line Decoders/Demultiplexers
+2x - 74HCT238 (Console  -; Axe top 1x; Pedal Unit -x; Step On -x; Neck 1x) 16 DIP 3-to-8 line decoder/demultiplexer active high
+2x - 74SC245  (Console  -; Axe top 2x; Pedal Unit -x; Step On -x; Neck -x) 20 DIP Octal Bus Transceivers With 3-State Outputs
+5x - 74SC541  (Console  -; Axe top 5x; Pedal Unit -x; Step On -x; Neck -x) 20 DIP Octal Buffers and Line Drivers With 3-State Outputs
+4x - 74SC574  (Console 2x; Axe top 2x; Pedal Unit -x; Step On -x; Neck -x) 20 DIP Octal D-type flip-flop positive edge-trigger 3-state
+4x - 74LS670  (Console  -; Axe top 4x; Pedal Unit -x; Step On -x; Neck -x) 16 DIP 4-BY-4 REGISTER FILES WITH 3-STATE OUTPUTS
+6x - 74C906   (Console 1x; Axe top 2x; Pedal Unit 2x; Step On 1x; Neck -x) 14 DIP Hex Open Drain N-Channel Buffers
+1x - 74HC14   (Ax bottom only)					           14 DIP Hex Schmitt-Trigger Inverter
+
+CMOS:
+3x - HEF4013  (Console  -; Axe top -x; Pedal Unit 1x; Step On 2x; Neck -x) 14 DIP Dual D-type flip-flop
+2x - 4016     (Console 1x; Axe top 1x; Pedal Unit -x; Step On -x; Neck -x) 14 DIP High-Speed CMOS Logic Quad Bilateral Switch
+2x - HEF4024  (Console 1x; Axe top 1x; Pedal Unit -x; Step On -x; Neck -x) 14 DIP Octal inverting buffers with 3-state outputs 
+3x - HEF4042  (Console  x; Axe top -x; Pedal Unit 2x; Step On 1x; Neck -x) 16 DIP Quadruple D-latch
+4x - 4093     (Console 1x; Axe top 1x; Pedal Unit 1x; Step On 1x; Neck -x) 14 DIP Quad 2-Input NAND Schmitt Triggers
+2x - 4528     (Console 1x; Axe top 1x; Pedal Unit -x; Step On -x; Neck -x) 16 DIP Dual Monostable Multivibrator
+
+MV74xx - Plessey (PS S) 
+
+74HCT238 - 3-to-8 line decoder/demultiplexer
+74LS670  - 4-BY-4 REGISTER FILES WITH 3-STATE OUTPUTS
+74C906   - Hex Open Drain N-Channel Buffers
+
+DG508 - DG508A is a single 8-channel (1-of-8) mux
+DG506 - DG506A is a single 16-channel (1 of 16) multiplexer 
+
+
+TSH-06F
+
+Device Families:
+
+TTL (74xx) True TTL
+74L Low power
+74S Schottky
+74H High speed
+74LS Low power - Schottky
+74AS Advanced - Schottky
+74ALS Advanced - Low power - Schottky
+74F(AST) Fast - (Advanced - Schottky)
+74C CMOS...................check Vcc levels
+74HC (U) High speed - CMOS (Unbuffered output)
+74HCT High speed - CMOS - TTL inputs
+74AHC Advanced - High speed - CMOS
+74AHCT Advanced - High speed - CMOS - TTL inputs
+74FCT (-A) Fast - CMOS - TTL inputs (speed variations)
+74FCT (-T, -AT) Fast - CMOS - TTL inputs (speed variations)
+74AC Advanced - CMOS
+74ACT Advanced - CMOS - TTL inputs
+74FACT AC, ACT (Q) series
+74ACQ Advanced - CMOS - Quiet outputs
+74ACTQ Advanced - CMOS - TTL inputs - Quiet outputs
+
+Bus Driver Families
+
+74ABT Advanced - BiCMOS - Technology
+74ABTE ABT - Enhanced Transceiver Logic
+74ABTH Advanced - BiCMOS - Technology - bus Hold
+74BCT BiCMOS - TTL inputs
+74BTL Backplane - Transceiver - Logic
+74GTL Gunning - Transceiver - Logic
+74GTLP GTL Plus
+
+Low Voltage Families
+
+74ALB Advanced - Low Voltage - BiCMOS
+74LV (U) Low - Voltage (Unbuffered output)
+74LVC (R) (U) LV - CMOS (damping Resistor)(Unbuffered output)
+74LVCH Low - Voltage - CMOS - bus Hold
+74ALVC Advanced - Low - Voltage - CMOS
+74LVT (R) (U) LV - TTL (damping Resistor(Unbuffered output)
+74LVTZ Low - Voltage - TTL - High Impedance power-up
+74ALVC (R) ALV - CMOS (bus Hold) (damping Resistor)
+74ALVCH Advanced - Low - Voltage - CMOS - bus Hold
+74LCX LV - CMOS (operates with 3v & 5v supplies)
+74VCX LV - CMOS (operates with 1.8v & 3.6v supplies
+
+4000 True CMOS (non-TTL levels)
+74 series families
+
+The 74LS (Low-power Schottky) family (like the original) uses TTL 
+(Transistor-Transistor Logic) circuitry which is fast but requires more power 
+than later families. The 74 series is often still called the 'TTL series' even 
+though the latest ICs do not use TTL!
+
+The 74HC family has High-speed CMOS circuitry, combining the speed of TTL with 
+the very low power consumption of the 4000 series. They are CMOS ICs with the 
+same pin arrangements as the older 74LS family. Note that 74HC inputs cannot be 
+reliably driven by 74LS outputs because the voltage ranges used for logic 0 are 
+not quite compatible, use 74HCT instead.
+
+The 74HCT family is a special version of 74HC with 74LS TTL-compatible inputs so 
+74HCT can be safely mixed with 74LS in the same system. In fact 74HCT can be used 
+as low-power direct replacements for the older 74LS ICs in most circuits. The minor 
+disadvantage of 74HCT is a lower immunity to noise, but this is unlikely to be a 
+problem in most situations.
+
+For most new projects the 74HC family is the best choice. The 74LS and 74HCT 
+families require a 5V supply so they are not convenient for battery operation.
+
+TES200:
+Doesn't test: 74HCT238, 74SC245, 74SC541, 74SC574, 74C906, 4528
+
+Vizatek VZ4
+Doesn't test: 74HCT238,                            74C906, 4528,
+
+TL866:
+Doesn't test: 74LS670, 4528
+
+ChipMaster Compact Professional: everything

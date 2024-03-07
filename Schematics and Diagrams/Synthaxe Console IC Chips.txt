@@ -1,0 +1,64 @@
+IC 1: 68B09/63B09
+IC 2: 74SC138
+IC 3: 2764/2732A (EPROM)
+IC 4: "       "  (EPROM)
+IC 5: "       "  (EPROM)
+IC 6: 6264 64K SRAM (LK3)
+IC 7: "  "          (LK5)
+IC 8: 74SC138
+IC 9: HEF4024/74HC4024
+IC 10: 63B50
+IC 11: "   "
+IC 12: "   "
+IC 13: 74SC574/74HC574
+IC 14: "             "
+IC 15: 74LS38
+IC 16: KR9601
+IC 17: 6N138
+IC 18: "   "
+IC 19: "   "
+IC 20: 6116 2k SCREEN RAM
+IC 21: 74HC32
+IC 22: L4705
+IC 23: 4093
+IC 24: CD4528
+IC 25: HD61830
+IC 26: 74C906
+IC 27: 74LS38
+IC 28: 74LS02
+IC 29: 68B40/63B40
+IC 30: LM311
+IC 31: 74HC00
+IC 32: HEF4016
+
+1.  1x - 68B09:   8 bit microprocessor
+2.  2x - 74SC138: 3-to-8 line decoder/demultiplexer, inverting outputs 
+3.  3x - 2764:    64k EPROM
+4.  2x - 6264:    8192-word x 8-bit High Speed CMOS Static RAM (8k)
+5.  1x - HEF4024: 7-stage binary counter (NOT A CMOS CHIP)
+6.  3x - 63B50:   Asynchronous Communications Interface Adapter 
+7.  2x - 74SC574: octal D-type edge-triggered flip-flop (74SC doesnt exist?  Replaced 74LS, Use 74HC/74HCT)
+8.  2x - 74LS38:  quad 2-input NAND gate
+9.  1x - KR9601:  KEYBOARD ENCODER READ ONLY MEMORY KEM
+10. 3x - 6N138:   Low Input Current, High Gain Optocouplers
+11. 1x - 74HC32:  quad 2-input OR gates
+12. 1x - L4705:   VERY LOW DROP VOLTAGE REGULATORS
+13. 1x - 4093*:   Quad 2-Input NAND Schmitt Triggers Hight Voltage (3-15V) 
+14. 1x - CD4528:  Dual Monostable Multivibrator 
+15. 1x - HD61830: Dot matrix liquid crystal graphic display controller LSI that stores the display data sent from an 8-bit 
+	    	  microcontroller in the external RAM to generate dot ma trix liquid crystal driving signals.
+16. 1x - 74C906:  Hex Open Drain N-Channel Buffers
+17. 1x - 74LS02:  quad 2-input NOR gate 
+18. 1x - 68B40:   Programmble Timer Module
+19. 1x - LM311:   Single high-speed voltage comparators
+20. 1x - 74HC00:  quad 2-input NAND gate
+21. 1x - HEF4016*:   CMOS Chip With Four Analog Switches
+
+*-CMOS
+
+Possibly bad chips:
+IC15/27 - 74LS38 (2x)
+IC32 - HEF4016
+IC28 - 74LS02 
+
+IC13 - 74HC574
